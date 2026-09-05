@@ -1,0 +1,6 @@
+{
+  "name": "Infant Visual Development Flashcards",
+  "description": "Scientifically staged high-contrast visual stimulation flashcards for infants (0–4 months) to support early visual cortex development, focus, and tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

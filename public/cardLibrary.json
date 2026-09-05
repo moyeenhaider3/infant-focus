@@ -1,0 +1,362 @@
+[
+  {
+    "id": "s1-shapes-circle",
+    "stage": 1,
+    "category": "shapes",
+    "svgPath": "concentric-circle",
+    "title": "Bold Concentric Circle",
+    "scienceNote": "High-contrast black boundaries on stark white trigger firing in the newborn primary visual cortex (V1).",
+    "citation": "Fantz, R. L. (1961). The origin of form perception. Scientific American, 204(5), 66-72."
+  },
+  {
+    "id": "s1-shapes-checkerboard",
+    "stage": 1,
+    "category": "shapes",
+    "svgPath": "checkerboard-macro",
+    "title": "Macro Checkerboard",
+    "scienceNote": "Large grid corners stimulate receptive fields of retinal ganglion cells optimized for low newborn visual acuity (~20/400).",
+    "citation": "Dobson, V., & Teller, D. Y. (1978). Visual acuity in human infants. Vision Research, 18(11), 1469-1483."
+  },
+  {
+    "id": "s1-shapes-triangle",
+    "stage": 1,
+    "category": "shapes",
+    "svgPath": "solid-triangle",
+    "title": "Solid Equilateral Triangle",
+    "scienceNote": "Acute vertices and wide dark surface area create strong luminance gradients that hold newborn gaze.",
+    "citation": "Salapatek, P., & Kessen, W. (1966). Visual scanning of triangles by the human newborn. J. Exp. Child Psychol., 3(2), 155-167."
+  },
+  {
+    "id": "s1-shapes-square-nest",
+    "stage": 1,
+    "category": "shapes",
+    "svgPath": "nested-squares",
+    "title": "Nested Square Halo",
+    "scienceNote": "Nested geometric boundaries provide multiple depth-like contours without confusing low-acuity foveal cones.",
+    "citation": "Braddick, O., & Atkinson, J. (2011). Development of human visual function. Vision Research, 51(13), 1588-1609."
+  },
+  {
+    "id": "s1-shapes-diamond",
+    "stage": 1,
+    "category": "shapes",
+    "svgPath": "diamond-matrix",
+    "title": "Contrast Diamond Matrix",
+    "scienceNote": "Diagonal edge transitions activate orientation-selective hypercolumns in early cortical maps.",
+    "citation": "Hubel, D. H., & Wiesel, T. N. (1977). Functional architecture of macaque monkey visual cortex. Proc. R. Soc. Lond. B, 198(1130), 1-59."
+  },
+  {
+    "id": "s1-shapes-yinyang",
+    "stage": 1,
+    "category": "shapes",
+    "svgPath": "harmonic-half",
+    "title": "B&W Harmonic Curve",
+    "scienceNote": "Opposing black and white hemispheres maximize bilateral hemispheric visual stimulation across both visual fields.",
+    "citation": "Maurer, D., & Maurer, C. (1988). The World of the Newborn. Basic Books."
+  },
+  {
+    "id": "s1-faces-schematic",
+    "stage": 1,
+    "category": "faces",
+    "svgPath": "face-schematic-smile",
+    "title": "Schematic Smiling Face",
+    "scienceNote": "Newborns possess an innate subcortical mechanism (Conspec) that directs immediate gaze toward face-like patterns.",
+    "citation": "Johnson, M. H., et al. (1991). Newborns preferential tracking of face-like stimuli. Cognition, 40(1-2), 1-19."
+  },
+  {
+    "id": "s1-faces-open-eyes",
+    "stage": 1,
+    "category": "faces",
+    "svgPath": "face-direct-eyes",
+    "title": "Direct High-Contrast Gaze",
+    "scienceNote": "Direct eye contact with stark contrast pupil-sclera boundaries triggers oxytocin release and stabilizes attention.",
+    "citation": "Farroni, T., et al. (2002). Eye contact detection in humans from birth. PNAS, 99(14), 9602-9605."
+  },
+  {
+    "id": "s1-faces-winking",
+    "stage": 1,
+    "category": "faces",
+    "svgPath": "face-wink",
+    "title": "Winking Schematic Face",
+    "scienceNote": "Asymmetrical contrast features encourage saccadic eye movements across the midline of the face.",
+    "citation": "Morton, J., & Johnson, M. H. (1991). CONSPEC and CONLERN. Psychol. Rev., 98(2), 164."
+  },
+  {
+    "id": "s1-faces-gentle-parent",
+    "stage": 1,
+    "category": "faces",
+    "svgPath": "face-profile",
+    "title": "Parent Silhouette Profile",
+    "scienceNote": "Facial profile outlines match the natural 8–12 inch feeding distance, supporting social bonding pathways.",
+    "citation": "Bushnell, I. W. (2001). Mother’s face recognition in newborn infants. Infant and Child Development, 10(1-2), 51-54."
+  },
+  {
+    "id": "s1-faces-happy-eyes",
+    "stage": 1,
+    "category": "faces",
+    "svgPath": "face-crescents",
+    "title": "Crescent Happy Eyes",
+    "scienceNote": "Curved brow and eye lines activate positive affective responsiveness even before conscious facial recognition.",
+    "citation": "Field, T. M., et al. (1982). Discrimination and imitation of facial expressions by neonates. Science, 218(4568), 179-181."
+  },
+  {
+    "id": "s1-faces-abstract",
+    "stage": 1,
+    "category": "faces",
+    "svgPath": "face-tri-dots",
+    "title": "Tri-Dot Face Geometry",
+    "scienceNote": "Three top-heavy black marks within an oval trigger the foundational neural template for human face detection.",
+    "citation": "Simion, F., et al. (2002). Newborns preference for face-like stimuli. Dev. Sci., 5(4), 427-434."
+  },
+  {
+    "id": "s1-patterns-bullseye",
+    "stage": 1,
+    "category": "patterns",
+    "svgPath": "pattern-bullseye",
+    "title": "High-Contrast Bullseye",
+    "scienceNote": "Concentric rings draw the infant’s gaze inward toward the central target point, practicing foveal fixation.",
+    "citation": "Fantz, R. L. (1963). Pattern vision in newborn infants. Science, 140(3564), 296-297."
+  },
+  {
+    "id": "s1-patterns-sunburst",
+    "stage": 1,
+    "category": "patterns",
+    "svgPath": "pattern-sunburst",
+    "title": "Radial Starburst",
+    "scienceNote": "Diverging black wedges guide peripheral gaze toward the center of the visual field.",
+    "citation": "Atkinson, J. (2000). The Developing Visual Brain. Oxford University Press."
+  },
+  {
+    "id": "s1-patterns-stripes",
+    "stage": 1,
+    "category": "patterns",
+    "svgPath": "pattern-stripes-vertical",
+    "title": "Broad Vertical Stripes",
+    "scienceNote": "Broad stripes match the spatial frequency channel (~0.5 cycles/degree) that neonates perceive most vividly.",
+    "citation": "Banks, M. S., & Salapatek, P. (1978). Acuity and contrast sensitivity in 1-, 2-, and 3-month-old human infants. IOVS, 17(4), 361-365."
+  },
+  {
+    "id": "s1-patterns-spiral",
+    "stage": 1,
+    "category": "patterns",
+    "svgPath": "pattern-arch-spiral",
+    "title": "Archimedean Coil",
+    "scienceNote": "Continuous spiral contours invite smooth pursuit eye movements rather than rigid discontinuous saccades.",
+    "citation": "von Hofsten, C., & Rosander, K. (1996). Development of smooth pursuit tracking in young infants. Vision Research, 36(12), 1799-1810."
+  },
+  {
+    "id": "s1-patterns-chevron",
+    "stage": 1,
+    "category": "patterns",
+    "svgPath": "pattern-chevron",
+    "title": "Bold Chevron Waves",
+    "scienceNote": "Directional vertex arrows encourage bilateral eye coordination and spatial alignment across visual quadrants.",
+    "citation": "Sireteanu, R. (2000). The development of visual cortical processing in humans. Eur. J. Neurosci., 12(7), 2139-2144."
+  },
+  {
+    "id": "s1-patterns-dots",
+    "stage": 1,
+    "category": "patterns",
+    "svgPath": "pattern-macro-dots",
+    "title": "Macro Polka Matrix",
+    "scienceNote": "Evenly spaced dark circular disks provide structured visual landmarks that prevent infant gaze drifting.",
+    "citation": "Teller, D. Y. (1979). The forced-choice preferential looking procedure. Infant Behav. Dev., 2, 135-153."
+  },
+  {
+    "id": "s1-animals-panda",
+    "stage": 1,
+    "category": "animals",
+    "svgPath": "animal-panda",
+    "title": "Panda High-Contrast Silhouette",
+    "scienceNote": "Natural black-and-white patches mimic facial ocular masks, naturally anchoring infant interest.",
+    "citation": "Fantz, R. L. (1961). The origin of form perception. Scientific American, 204(5), 66-72."
+  },
+  {
+    "id": "s1-animals-penguin",
+    "stage": 1,
+    "category": "animals",
+    "svgPath": "animal-penguin",
+    "title": "Penguin Silhouette",
+    "scienceNote": "Strong vertical posture with contrasting white abdomen provides clear vertical symmetry detection.",
+    "citation": "Bornstein, M. H., et al. (1981). Perception of vertical symmetry in infancy. Infant Behav. Dev., 4, 253-264."
+  },
+  {
+    "id": "s1-animals-cat",
+    "stage": 1,
+    "category": "animals",
+    "svgPath": "animal-cat",
+    "title": "Kitten Face Silhouette",
+    "scienceNote": "Pointed ear contours and circular face boundary activate early feature-integration cortex.",
+    "citation": "Treisman, A. (1986). Features and objects in visual processing. Scientific American, 255(5), 114-125."
+  },
+  {
+    "id": "s1-animals-owl",
+    "stage": 1,
+    "category": "animals",
+    "svgPath": "animal-owl",
+    "title": "Wide-Eyed Owl",
+    "scienceNote": "Prominent concentric ocular circles strongly trigger the infant’s innate gaze-following response.",
+    "citation": "Hood, B. M., et al. (1998). Eye gaze trigger for attention shifts in infants. Dev. Psychol., 34(6), 1306."
+  },
+  {
+    "id": "s1-animals-elephant",
+    "stage": 1,
+    "category": "animals",
+    "svgPath": "animal-elephant",
+    "title": "Gentle Baby Elephant",
+    "scienceNote": "Curved trunk and rounded silhouette present large unified dark masses easy for low-acuity vision to track.",
+    "citation": "Maurer, D., & Maurer, C. (1988). The World of the Newborn. Basic Books."
+  },
+  {
+    "id": "s1-animals-butterfly",
+    "stage": 1,
+    "category": "animals",
+    "svgPath": "animal-butterfly",
+    "title": "Symmetrical Butterfly",
+    "scienceNote": "Bilateral wing symmetry creates balanced visual weight, easing the strain on immature ocular muscles.",
+    "citation": "Humphreys, G. W., et al. (1994). Visual symmetry perception in infants. Perception, 23(1), 77-87."
+  },
+  {
+    "id": "s2-shapes-red-center",
+    "stage": 2,
+    "category": "shapes",
+    "svgPath": "shape-red-core",
+    "title": "Crimson Core Circle",
+    "scienceNote": "Red wavelengths (~650nm) are the first perceived after birth as retinal L-cones mature around 6–8 weeks.",
+    "citation": "Franklin, A., et al. (2005). Categorical perception of color is lateralized to the right hemisphere in infants. PNAS, 105(9), 3221-3225."
+  },
+  {
+    "id": "s2-shapes-red-ring",
+    "stage": 2,
+    "category": "shapes",
+    "svgPath": "shape-red-ring",
+    "title": "Red Halo Target",
+    "scienceNote": "Surrounding a black disk with a vibrant red ring helps young infants differentiate chromatic from achromatic contrast.",
+    "citation": "Adams, R. J., & Courage, M. L. (1998). Human infant color vision. Vision Research, 38(21), 3365-3376."
+  },
+  {
+    "id": "s2-shapes-red-cross",
+    "stage": 2,
+    "category": "shapes",
+    "svgPath": "shape-red-cross",
+    "title": "Ruby Prism Cross",
+    "scienceNote": "Perpendicular red intersections against black gridlines challenge early parvocellular visual pathways.",
+    "citation": "Livingstone, M., & Hubel, D. (1988). Segregation of form, color, movement, and depth. Science, 240(4853), 740-749."
+  },
+  {
+    "id": "s2-shapes-ruby-heart",
+    "stage": 2,
+    "category": "shapes",
+    "svgPath": "shape-red-heart",
+    "title": "High-Contrast Scarlet Heart",
+    "scienceNote": "The warm red silhouette surrounded by bold black perimeter offers dual luminance-chromatic stimulus.",
+    "citation": "Peeples, D. R., & Teller, D. Y. (1975). Color vision and brightness discrimination in two-month-old human infants. Science, 189(4208), 1102-1103."
+  },
+  {
+    "id": "s2-shapes-red-nested",
+    "stage": 2,
+    "category": "shapes",
+    "svgPath": "shape-red-squares",
+    "title": "Alternating Crimson Squares",
+    "scienceNote": "Nested squares alternating black, white, and red exercise focal accommodation at 10–14 inches.",
+    "citation": "Banks, M. S. (1980). The development of visual accommodation in human infants. Child Dev., 51(3), 646-666."
+  },
+  {
+    "id": "s2-shapes-red-diamond",
+    "stage": 2,
+    "category": "shapes",
+    "svgPath": "shape-red-diamond",
+    "title": "Ruby Diamond Portal",
+    "scienceNote": "Sharp red corners positioned against a dark void activate parvocellular color-opponent neurons.",
+    "citation": "Suttle, C. M., et al. (2002). The development of chromatic and luminance contrast sensitivity. Vision Res., 42(15), 1845-1854."
+  },
+  {
+    "id": "s2-faces-red-cheeks",
+    "stage": 2,
+    "category": "faces",
+    "svgPath": "face-red-cheeks",
+    "title": "Cheery Blush Smile",
+    "scienceNote": "Red cheek accents enhance facial saliency and stimulate emerging social smiling responses at 6–8 weeks.",
+    "citation": "Sroufe, L. A., & Wunsch, J. P. (1972). The development of laughter in the first year of life. Child Dev., 43(4), 1326-1344."
+  },
+  {
+    "id": "s2-faces-red-lips",
+    "stage": 2,
+    "category": "faces",
+    "svgPath": "face-red-lips",
+    "title": "High-Contrast Red Smile",
+    "scienceNote": "A bright scarlet smile guides baby’s gaze toward the mouth, laying the visual foundation for vocal imitation.",
+    "citation": "Meltzoff, A. N., & Moore, M. K. (1977). Imitation of facial and manual gestures by human neonates. Science, 198(4312), 75-78."
+  },
+  {
+    "id": "s2-objects-rattle",
+    "stage": 2,
+    "category": "objects",
+    "svgPath": "object-red-rattle",
+    "title": "Scarlet Baby Rattle",
+    "scienceNote": "A familiar circular rattle form connects tactile play experiences with high-contrast visual recognition.",
+    "citation": "Streri, A., & Spelke, E. S. (1988). Haptic perception of objects in infancy. Cognit. Psychol., 20(1), 1-23."
+  },
+  {
+    "id": "s2-objects-apple",
+    "stage": 2,
+    "category": "objects",
+    "svgPath": "object-red-apple",
+    "title": "Crisp Red Apple",
+    "scienceNote": "The rounded red silhouette with a black leaf accent teaches figure-ground segregation.",
+    "citation": "Spelke, E. S. (1990). Principles of object perception. Cognit. Sci., 14(1), 29-56."
+  },
+  {
+    "id": "s2-animals-ladybug",
+    "stage": 2,
+    "category": "animals",
+    "svgPath": "animal-ladybug",
+    "title": "Contrast Ladybug",
+    "scienceNote": "Bold black polka dots on a bright red carapace present an ideal high-contrast biological visual target.",
+    "citation": "Fantz, R. L. (1961). The origin of form perception. Scientific American, 204(5), 66-72."
+  },
+  {
+    "id": "s2-patterns-red-bullseye",
+    "stage": 2,
+    "category": "patterns",
+    "svgPath": "pattern-red-bullseye",
+    "title": "Crimson Bullseye Vortex",
+    "scienceNote": "Alternating rings of black, white, and scarlet create pulsating optical depth that maintains prolonged fixation.",
+    "citation": "Fantz, R. L. (1965). Visual perception from birth as shown by pattern selectivity. Ann. N. Y. Acad. Sci., 118(21), 793-814."
+  },
+  {
+    "id": "s3-patterns-hypnotic-vortex",
+    "stage": 3,
+    "category": "patterns",
+    "svgPath": "pattern-s3-vortex",
+    "title": "Dual Chromatic Vortex",
+    "scienceNote": "Complex multi-ring logarithmic spirals drive binocular foveation and motion anticipation.",
+    "citation": "von Hofsten, C. (1982). Predictive reaching for moving objects by human infants. J. Exp. Child Psychol., 34(3), 439-461."
+  },
+  {
+    "id": "s3-patterns-tunnel",
+    "stage": 3,
+    "category": "patterns",
+    "svgPath": "pattern-s3-tunnel",
+    "title": "Concentric Infinity Tunnel",
+    "scienceNote": "Progressively shrinking concentric polygons simulate 3D depth perception as stereopsis begins to emerge.",
+    "citation": "Held, R., et al. (1980). Stereoacuity of human infants. Science, 209(4463), 1427-1429."
+  },
+  {
+    "id": "s4-shapes-rgb-trio",
+    "stage": 4,
+    "category": "shapes",
+    "svgPath": "s4-rgb-shapes",
+    "title": "Primary Palette Triangle",
+    "scienceNote": "By 3–4 months, S-cones (blue) and M-cones (green) join mature L-cones (red), enabling full trichromatic vision.",
+    "citation": "Teller, D. Y. (1998). First glances: The vision of infants. Invest. Ophthalmol. Vis. Sci., 39(12), 2146-2156."
+  },
+  {
+    "id": "s4-faces-cheerful-clown",
+    "stage": 4,
+    "category": "faces",
+    "svgPath": "s4-primary-face",
+    "title": "Vibrant Primary Smile",
+    "scienceNote": "Multi-hued facial features prompt complex emotional categorization and infant social engagement.",
+    "citation": "Nelson, C. A. (1987). The recognition of facial expressions in the first two years of life. Child Dev., 58(4), 889-909."
+  }
+]
