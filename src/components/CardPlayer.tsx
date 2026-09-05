@@ -241,32 +241,32 @@ export const CardPlayer: React.FC<CardPlayerProps> = ({
       {/* ---------------------------------------------------- */}
       {/* PARENT TOP CONTROLS BAR (Distraction-free, crisp contrast) */}
       {/* ---------------------------------------------------- */}
-      <header className="relative z-30 w-full px-4 sm:px-6 py-3 flex items-center justify-between gap-2 bg-gradient-to-b from-black/80 via-black/40 to-transparent text-white">
+      <header className="relative z-30 w-full px-2 sm:px-6 py-2.5 sm:py-3 flex items-center justify-between gap-1.5 sm:gap-2 bg-gradient-to-b from-black/80 via-black/40 to-transparent text-white">
         {/* Left: Exit button & Stage Pill */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
           <button
             id="exit-player-btn"
             onClick={onExit}
-            className="h-11 px-3.5 rounded-2xl bg-neutral-900/90 border border-neutral-700/80 hover:bg-neutral-800 text-white font-bold text-xs flex items-center gap-1.5 transition active:scale-95 shadow-md"
+            className="h-10 sm:h-11 px-2.5 sm:px-3.5 rounded-2xl bg-neutral-900/90 border border-neutral-700/80 hover:bg-neutral-800 text-white font-bold text-xs flex items-center gap-1.5 transition active:scale-95 shadow-md"
             aria-label="Exit card deck"
           >
             <X className="w-4 h-4" />
             <span className="hidden sm:inline">Exit Deck</span>
           </button>
 
-          <span className="text-xs font-black uppercase tracking-wider text-red-400 bg-red-950/70 border border-red-800/80 px-2.5 py-1 rounded-full shadow-sm">
+          <span className="text-[11px] sm:text-xs font-black uppercase tracking-wider text-red-400 bg-red-950/70 border border-red-800/80 px-2 sm:px-2.5 py-1 rounded-full shadow-sm whitespace-nowrap">
             Stage {stage}
           </span>
         </div>
 
         {/* Center: Session 3-Min Progress Indicator */}
-        <div className="flex items-center gap-2 bg-neutral-900/90 border border-neutral-700/80 px-3.5 py-1.5 rounded-full shadow-md">
-          <Timer className="w-3.5 h-3.5 text-neutral-300 animate-pulse" />
-          <span className="text-xs font-mono font-bold text-white tracking-wider">
-            {timerDisplay} / 3:00
+        <div className="flex items-center gap-1.5 sm:gap-2 bg-neutral-900/90 border border-neutral-700/80 px-2.5 sm:px-3.5 py-1.5 rounded-full shadow-md shrink-0">
+          <Timer className="w-3.5 h-3.5 text-neutral-300 animate-pulse shrink-0" />
+          <span className="text-[11px] sm:text-xs font-mono font-bold text-white tracking-wider whitespace-nowrap">
+            {timerDisplay} <span className="text-neutral-400">/ 3:00</span>
           </span>
-          {/* Micro progress bar */}
-          <div className="w-12 h-1.5 bg-neutral-800 rounded-full overflow-hidden ml-1">
+          {/* Micro progress bar (hidden on narrow phones, visible on tablets/desktops) */}
+          <div className="hidden sm:block w-12 h-1.5 bg-neutral-800 rounded-full overflow-hidden ml-1">
             <div
               className="h-full bg-emerald-400 transition-all duration-300"
               style={{ width: `${progressPercent}%` }}
@@ -275,23 +275,23 @@ export const CardPlayer: React.FC<CardPlayerProps> = ({
         </div>
 
         {/* Right: Science info ⓘ, Tracking Mode, & Settings Drawer */}
-        <div className="flex items-center gap-1.5">
+        <div className="flex items-center gap-1 sm:gap-1.5 shrink-0">
           {/* Science info button (Must-have requirement) */}
           <button
             id="card-science-info-btn"
             onClick={() => setShowScienceModal(true)}
-            className="w-11 h-11 rounded-2xl bg-neutral-900/90 hover:bg-neutral-800 border border-neutral-700/80 text-white flex items-center justify-center transition active:scale-95 shadow-md"
+            className="w-10 h-10 sm:w-11 sm:h-11 rounded-2xl bg-neutral-900/90 hover:bg-neutral-800 border border-neutral-700/80 text-white flex items-center justify-center transition active:scale-95 shadow-md"
             title="Why this card helps (Research note)"
             aria-label="Why this card helps"
           >
-            <Info className="w-5 h-5 text-amber-400" />
+            <Info className="w-4 h-4 sm:w-5 sm:h-5 text-amber-400" />
           </button>
 
           {/* Tracking Mode quick toggle button */}
           <button
             id="toggle-tracking-mode-btn"
             onClick={toggleTracking}
-            className={`h-11 px-3 rounded-2xl border font-bold text-xs flex items-center gap-1.5 transition active:scale-95 shadow-md ${
+            className={`h-10 sm:h-11 w-10 sm:w-auto px-0 sm:px-3 rounded-2xl border font-bold text-xs flex items-center justify-center gap-1.5 transition active:scale-95 shadow-md ${
               isTrackingMode
                 ? 'bg-red-600 border-red-500 text-white'
                 : 'bg-neutral-900/90 border-neutral-700/80 text-neutral-300 hover:text-white'
@@ -306,7 +306,7 @@ export const CardPlayer: React.FC<CardPlayerProps> = ({
           <button
             id="player-options-toggle-btn"
             onClick={() => setShowSettingsDrawer((prev) => !prev)}
-            className="w-11 h-11 rounded-2xl bg-neutral-900/90 hover:bg-neutral-800 border border-neutral-700/80 text-white flex items-center justify-center transition active:scale-95 shadow-md"
+            className="w-10 h-10 sm:w-11 sm:h-11 rounded-2xl bg-neutral-900/90 hover:bg-neutral-800 border border-neutral-700/80 text-white flex items-center justify-center transition active:scale-95 shadow-md"
             title="Player settings"
             aria-label="Player settings"
           >
